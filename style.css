@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+input,
+button,
+select {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+th, 
+td {
+    border: 1px solid #ccc;
+    padding: 11px;
+    text-align: left;
+    
+}
+th {
+    background: #9242c1;
+    color: rgb(255, 255, 255);
+}
+button[onclick*="salvar"] {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+}
+
+button[onclick*="editar"] {
+    background-color: #ecea4c;
+    color: rgb(0, 0, 0);
+}
+
+button[onclick*="excluir"] {
+    background-color: #dc3545;
+    color: white;
+}
